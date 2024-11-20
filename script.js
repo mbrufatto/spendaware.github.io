@@ -4,13 +4,20 @@ const languageSelect = document.getElementById('language-select');
 // Objeto com os textos da política em cada idioma
 const texts = {
     en: {
-        // Texto em inglês
+        introduction: "Introduction",
+        dataCollection: "The app uses the user's iCloud to allow them to access their data on all their devices.",
+        // ...
     },
     pt: {
-        // Texto em português (já fornecido no prompt)
+        introducao: "Introdução",
+        coletaDeDados: "O aplicativo utiliza o iCloud do usuário para que ele possa ter acesso aos seus dados em todos os seus dispositivos.",
+        usoDeDados: "Todos os dados ficam registrados no iCloud do usuário.",
+        // ...
     },
     es: {
-        // Texto em espanhol
+        introduccion: "Introducción",
+        recoleccionDeDatos: "La aplicación utiliza el iCloud del usuario para que pueda acceder a sus datos en todos sus dispositivos.",
+        // ...
     }
 };
 
