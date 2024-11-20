@@ -14,14 +14,12 @@ body {
 }
 
 .header {
-  background-color: #2f4f7f;
+  background-color: #2f4f7f; /* Azul escuro */
   color: #fff;
   padding: 10px;
-  text-align: right;
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header select {
