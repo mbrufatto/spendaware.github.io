@@ -1,18 +1,24 @@
+/* Estilos semelhantes aos fornecidos anteriormente, adaptando para o seu gosto */
 body {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
 }
 
-.container {
-  width: 80%;
-  margin: 40px auto;
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+header {
+    text-align: left;
+}
+
+#content {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #language-select {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+    /* Estilos para o seletor de idiomas */
 }
