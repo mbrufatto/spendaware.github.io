@@ -1,24 +1,27 @@
-/* Estilos semelhantes aos fornecidos anteriormente, adaptando para o seu gosto */
+/* Estilos básicos para a página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #222;
-    color: #fff;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
-    text-align: left;
-}
-
-#content {
-    background-color: #fff;
-    color: #333;
+    background-color: #f0f0f0;
     padding: 20px;
-    border-radius: 10px;
-    width: 80%;
-    margin: 0 auto;
+    text-align: center;
 }
 
-#language-select {
-    /* Estilos para o seletor de idiomas */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
 }
