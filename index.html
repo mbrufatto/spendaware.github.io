@@ -2,70 +2,39 @@
 <html>
 <head>
   <title>Política de Privacidade</title>
-  <style>
-    body {
-      background-color: #2f4f7f; /* Azul escuro */
-      font-family: Arial, sans-serif;
-    }
-   .container {
-      width: 80%;
-      margin: 40px auto;
-      background-color: #ffffff; /* Branco */
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    }
-   .logo {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="logo">
-    <img src="Logo_2.png" alt="Logo do App" width="50" height="50">
-  </div>
   <div class="container">
-    <h1>Política de Privacidade</h1>
-    <p>Introdução</p>
-    <p>O nosso aplicativo é comprometido em proteger a privacidade e a segurança dos dados dos nossos usuários. Esta política de privacidade descreve como coletamos, usamos e protegemos os dados dos nossos usuários.</p>
-    <h2>Coleta de Dados</h2>
-    <p>Nós coletamos os seguintes dados dos nossos usuários:</p>
-    <ul>
-      <li>Nome e sobrenome</li>
-      <li>E-mail</li>
-      <li>Informações de login (username e senha)</li>
+    <h1 id="title"></h1>
+    <p id="introduction"></p>
+    <h2 id="data-collection"></h2>
+    <p id="data-collection-text"></p>
+    <p id="data-collection-description"></p>
+    <ul id="data-collection-list">
+      <li id="authentication"></li>
+      <li id="access-control"></li>
+      <li id="icloud-sharing"></li>
     </ul>
-    <h2>Uso de Dados</h2>
-    <p>Nós usamos os dados coletados para:</p>
-    <ul>
-      <li>Fornecer os serviços do aplicativo</li>
-      <li>Melhorar a experiência do usuário</li>
-      <li>Proteger a segurança e a integridade do aplicativo</li>
+    <p id="data-sharing"></p>
+    <h2 id="user-rights"></h2>
+    <ul id="user-rights-list">
+      <li id="access-and-correct-data"></li>
+      <li id="cancel-account"></li>
+      <li id="exercise-rights"></li>
     </ul>
-    <h2>Proteção de Dados</h2>
-    <p>Nós protegemos os dados dos nossos usuários com medidas de segurança adequadas, incluindo:</p>
-    <ul>
-      <li>Criptografia de dados</li>
-      <li>Autenticação de usuários</li>
-      <li>Controle de acesso</li>
-    </ul>
-    <h2>Compartilhamento de Dados</h2>
-    <p>Nós não compartilhamos os dados dos nossos usuários com terceiros, exceto quando necessário para fornecer os serviços do aplicativo.</p>
-    <h2>Direitos dos Usuários</h2>
-    <p>Os usuários têm o direito de:</p>
-    <ul>
-      <li>Acessar e corrigir seus dados</li>
-      <li>Cancelar sua conta</li>
-      <li>Exercer seus direitos de acordo com a legislação aplicável</li>
-    </ul>
-    <h2>Mudanças nesta Política</h2>
-    <p>Nós nos reservamos o direito de fazer alterações nesta política de privacidade a qualquer momento, mediante comunicação aos nossos usuários.</p>
-    <h2>Contato</h2>
-    <p>Se você tiver alguma dúvida ou preocupação sobre esta política de privacidade, por favor entre em contato conosco em [inserir e-mail ou endereço de contato].</p>
-    <h2>Última Atualização</h2>
-    <p>Esta política de privacidade foi atualizada em [inserir data].</p>
+    <h2 id="changes-to-policy"></h2>
+    <p id="changes-to-policy-text"></p>
+    <h2 id="contact"></h2>
+    <p id="contact-text"></p>
+    <h2 id="last-update"></h2>
+    <p id="last-update-text"></p>
   </div>
+  <select id="language-select">
+    <option value="en" selected>English</option>
+    <option value="pt">Português</option>
+    <option value="es">Español</option>
+  </select>
+  <script src="script.js"></script>
 </body>
 </html>
