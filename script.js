@@ -23,7 +23,15 @@ const texts = {
 
 // Função para atualizar o conteúdo da página
 function updateContent(language) {
-    contentElement.innerHTML = texts[language];
+  // Construindo o HTML com as informações do objeto texts
+  const contentHTML = `
+    <h2>${texts[language].titulo}</h2>
+    <p>${texts[language].introducao}</p>
+    <p>${texts[language].corpo}</p>
+  `;
+
+  // Atribuindo o HTML construído ao elemento content
+  contentElement.innerHTML = contentHTML;
 }
 
 // Evento para detectar a mudança de idioma
