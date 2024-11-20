@@ -1,27 +1,35 @@
-/* Estilos básicos para a página */
 body {
+    background-color: #2f4f7f; /* Azul escuro */
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
-header {
-    background-color: #f0f0f0;
+.header {
+    background-color: #2f4f7f;
+    color: #fff;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
-main {
+.header.logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header.lang-select {
+    float: right;
+    margin-top: 10px;
+}
+
+.lang-select select {
+    background-color: #2f4f7f;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.content {
     padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-footer {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
+    color: #fff;
 }
